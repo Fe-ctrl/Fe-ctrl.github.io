@@ -1,197 +1,92 @@
 ﻿<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe De Nardo Dagnoni - Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Felipe Dagnoni | Backend Developer</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<meta content="Portfólio de Felipe Dagnoni, desenvolvedor backend com foco em Java, Spring Boot, C#/.NET, SQL, PostgreSQL e AWS." name="description"/></head>
 <body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <div class="logo">Felipe<span>.dev</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#experience">Trajetória</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header id="home" class="hero">
-        <div class="hero-shape"></div>
-        <div class="hero-content">
-            <span class="greeting">Olá, mundo! Eu sou o</span>
-            <h1>Felipe Dagnoni</h1>
-            <p class="subtitle">Assistente de Programação & Desenvolvedor de Software</p>
-            <div class="social-links">
-                <a href="mailto:felipedagnoni2002@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/felipe-dagnoni-87065a285/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Fe-ctrl" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            </div>
-            <a href="#about" class="scroll-btn"><i class="fas fa-chevron-down"></i></a>
-        </div>
-    </header>
-    <main>
-        <section id="about" class="section">
-            <div class="section-header">
-                <h2><i class="fas fa-user-astronaut"></i> Sobre Mim</h2>
-                <div class="line"></div>
-            </div>
-            <div class="about-content">
-                <p>
-                    Sou um desenvolvedor de software localizado em Itapira, São Paulo, movido pela curiosidade de entender como as coisas funcionam "debaixo do capô". Atualmente cursando Bacharelado em Ciência da Computação, adoro transformar problemas complexos em soluções organizadas e eficientes.
-                </p>
-                <p>
-                    Com experiência prática em <strong>C#</strong>, <strong>Java</strong> e <strong>PostgreSQL</strong>, foco sempre em criar aplicações com código limpo, automatizar tarefas repetitivas e construir softwares do começo ao fim.
-                </p>
-            </div>
-        </section>
-        <section id="experience" class="section">
-            <div class="section-header">
-                <h2><i class="fas fa-briefcase"></i> Trajetória & Experiência</h2>
-                <div class="line"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Assistente de Programação <span class="company">@ Conttrotech</span></h3>
-                        <span class="date"><i class="far fa-calendar-alt"></i> Mar 2025 – Mar 2026 | Itapira, SP</span>
-                        <ul>
-                            <li>Manutenção e evolução de módulos de um ERP utilizando <strong>C#</strong>, Windows Forms e <strong>PostgreSQL</strong>.</li>
-                            <li>Criação de regras de negócio complexas e consultas avançadas em banco de dados usando <strong>SQL e PL/SQL</strong>.</li>
-                            <li>Implementação de atualizações fiscais importantes para conformidade com a Reforma Tributária.</li>
-                            <li>Versionamento com <strong>Git</strong> e processos de deploy no <strong>Microsoft Azure</strong>.</li>
-                            <li>Automação de processos de importação de dados, resultando em <strong>50% de ganho</strong> em agilidade operacional.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Bacharelado em Ciência da Computação</h3>
-                        <span class="date"><i class="fas fa-university"></i> Ago 2023 – Atualmente | Centro Universitário de Jaguariúna</span>
-                        <p><strong>CR: 8,23</strong></p>
-                        <p>Forte imersão em Estruturas de Dados, Programação Orientada a Objetos, Desenvolvimento Web/Mobile e conceitos de Machine Learning.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Assistente Administrativo <span class="company">@ Friends Refrigeração</span></h3>
-                        <span class="date"><i class="far fa-calendar-alt"></i> Ago 2023 – Abr 2025 | Itapira, SP</span>
-                        <p>Gestão de rotinas administrativas, faturamento, emissão de notas fiscais e logística inteligente de agendamentos. Experiência chave no entendimento de necessidades de negócios e relação cliente-empresa.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Graduação em Engenharia Elétrica (Interrompida)</h3>
-                        <span class="date"><i class="fas fa-university"></i> Ago 2020 – Jul 2023 | Universidade Federal de São Carlos (UFSCar)</span>
-                        <p>Base sólida construída no raciocínio lógico-matemático e análise analítica durante a passagem pela federal.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="section">
-            <div class="section-header">
-                <h2><i class="fas fa-rocket"></i> Projetos em Destaque</h2>
-                <div class="line"></div>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-heartbeat project-icon"></i>
-                        <div class="project-links">
-                            <a href="#" title="Link Indisponível (TCC)"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <h3>Monitoramento de Sinais Vitais (IoT)</h3>
-                    <p class="project-desc">Solução de IoT ponta a ponta desenvolvida para otimizar o cuidado em casas de repouso através de dispositivos vestíveis que monitoram sinais vitais em tempo real. Utilizando uma arquitetura de baixo consumo energético com protocolos BLE e LoRa, o sistema centraliza dados em uma plataforma web capaz de identificar anomalias personalizadas e disparar alertas automáticos, garantindo intervenções rápidas e maior segurança aos residentes.</p>
-                    <ul class="project-features">
-                        <li>Integração de hardware (ESP32) com software.</li>
-                        <li>Lógica de detecção de anomalias em tempo real.</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>Laravel</span>
-                        <span>MySQL</span>
-                        <span>C++ / ESP32</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-car project-icon"></i>
-                        <div class="project-links">
-                            <a href="https://github.com/Fe-ctrl/Parking#pt" title="Link do Projeto"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3>Projeto de Estacionamento</h3>
-                    <p class="project-desc">Aplicação full-stack demonstrando a integração entre um frontend web, um backend robusto em Java e um banco de dados Oracle, focada na distribuição de lógicas de negócio através de Pacotes PL/SQL, Triggers e Views.</p>
-                    <ul class="project-features">
-                        <li>Interface de usuário responsiva e tipada com TypeScript e HTML/CSS.</li>
-                        <li>Backend Java processando requisições REST e acionando rotinas no banco.</li>
-                        <li>Rotinas complexas no Oracle usando Package Specification, Package Body e Triggers DML/INSTEAD OF.</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>Java</span>
-                        <span>TypeScript</span>
-                        <span>Oracle PL/SQL</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="skills" class="section">
-            <div class="section-header">
-                <h2><i class="fas fa-code"></i> Meu Arsenal</h2>
-                <div class="line"></div>
-            </div>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Linguagens & Frameworks</h3>
-                    <div class="tags">
-                        <span class="tag">C#</span>
-                        <span class="tag">.NET</span>
-                        <span class="tag">Java</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">PHP</span>
-                        <span class="tag">HTML5 / CSS3</span>
-                        <span class="tag">PL/SQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Banco de Dados & Ferramentas</h3>
-                    <div class="tags">
-                        <span class="tag">PostgreSQL</span>
-                        <span class="tag">MySQL</span>
-                        <span class="tag">Oracle</span>
-                        <span class="tag">Git / GitHub</span>
-                        <span class="tag">Microsoft Azure</span>
-                        <span class="tag">Visual Studio</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Cursos & Especializações</h3>
-                    <ul class="course-list">
-                        <li><i class="fas fa-check-circle"></i> <strong>C# COMPLETO (POO + Projetos)</strong> - Nelio Alves</li>
-                        <li><i class="fas fa-spinner fa-spin"></i> <strong>Algorithms, Part I</strong> - Princeton University</li>
-                        <li><i class="fas fa-spinner fa-spin"></i> <strong>Java COMPLETO (POO)</strong> - Nelio Alves</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">Felipe<span>.dev</span></div>
-            <p>"Código limpo, soluções eficientes."</p>
-            <p>&copy; 2026 Felipe De Nardo Dagnoni.</p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+<nav class="navbar">
+<div class="nav-content">
+<a class="logo" href="#home" aria-label="Ir para o início"><span>&lt;</span>Felipe.dev<span>/&gt;</span></a>
+<button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+<ul class="nav-links">
+<li><a href="#home">Início</a></li>
+<li><a href="#about">Sobre</a></li>
+<li><a href="#experience">Experiência</a></li>
+<li><a href="#projects">Projetos</a></li>
+<li><a href="#skills">Competências</a></li>
+</ul>
+</div>
+</nav>
+<header class="hero" id="home">
+<div class="hero-shape"></div>
+<div class="hero-content">
+<div class="hero-copy">
+<span class="greeting">Olá, eu sou</span>
+<h1><span class="typed-name" data-text="Felipe Dagnoni">Felipe Dagnoni</span><span class="typing-cursor" aria-hidden="true"></span></h1>
+<p class="subtitle">Backend Developer | Java &amp; Spring Boot | C#/.NET | SQL &amp; PostgreSQL | AWS</p>
+<div class="social-links">
+<a href="mailto:felipedagnoni2002@gmail.com" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a>
+<a href="https://www.linkedin.com/in/felipe-dagnoni" rel="noopener noreferrer" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+<a href="https://github.com/Fe-ctrl" rel="noopener noreferrer" target="_blank" title="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a>
+</div>
+</div>
+<aside class="code-window" aria-label="Resumo profissional em formato de código">
+<div class="window-bar"><span></span><span></span><span></span><small>profile.java</small></div>
+<pre><code><span class="code-muted">01</span> <span class="code-keyword">public class</span> <span class="code-type">Developer</span> {
+<span class="code-muted">02</span>   String focus = <span class="code-string">"Backend"</span>;
+<span class="code-muted">03</span>   String[] stack = {
+<span class="code-muted">04</span>     <span class="code-string">"Java"</span>, <span class="code-string">"Spring"</span>, <span class="code-string">".NET"</span>
+<span class="code-muted">05</span>   };
+<span class="code-muted">06</span>   boolean available = <span class="code-keyword">true</span>;
+<span class="code-muted">07</span> }</code></pre>
+<div class="terminal-status"><span></span> Construindo soluções que escalam</div>
+</aside>
+<a class="scroll-btn" href="#about"><i class="fas fa-chevron-down"></i></a>
+</div>
+</header>
+<main>
+<section class="section" id="about">
+<div class="section-header">
+<h2><i class="fas fa-user-astronaut"></i> Sobre Mim</h2>
+<div class="line"></div>
+</div>
+<div class="about-content"><p>Sou desenvolvedor backend com experiência profissional na evolução e manutenção de sistemas ERP utilizando <strong>C#/.NET</strong>, <strong>PostgreSQL</strong> e <strong>SQL</strong>. Atuei com regras de negócio, consultas complexas, importação de dados, automação de processos, documentos fiscais e investigação de problemas relatados por usuários.</p><p>Atualmente, direciono meu desenvolvimento para <strong>Java e Spring Boot</strong>, aprofundando conhecimentos em APIs REST, JPA, Hibernate, Docker e AWS. Também estou me preparando para a certificação <strong>AWS Certified Cloud Practitioner (CLF-C02)</strong>.</p><p>Gosto de entender problemas de negócio e transformá-los em soluções práticas, organizadas e eficientes. Busco oportunidades em desenvolvimento de software com foco principal em backend, bancos de dados, integrações e automação.</p></div>
+</section>
+<section class="section" id="experience">
+<div class="section-header">
+<h2><i class="fas fa-briefcase"></i> Experiência &amp; Formação</h2>
+<div class="line"></div>
+</div>
+<div class="timeline"><div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><h3>Junior Software Developer <span class="company">@ CONTTROTECH Sistemas de Gestão</span></h3><span class="date"><i class="far fa-calendar-alt"></i> Mar 2025 – Mar 2026 | Itapira, SP</span><ul><li>Desenvolvimento e manutenção de módulos de ERP com <strong>C#/.NET</strong>, Windows Forms e <strong>PostgreSQL</strong>, incluindo novas telas, correções, melhorias e implementação de regras de negócio.</li><li>Criação e otimização de consultas <strong>SQL</strong> para processos financeiros, fiscais e operacionais.</li><li>Otimização de importações CSV com uso de cache em memória, reduzindo em aproximadamente <strong>40%</strong> o tempo de processamento em arquivos com cerca de 5 mil linhas.</li><li>Automação de rotinas operacionais, incluindo emissão integrada de nota fiscal, boleto e relatório em um único fluxo.</li><li>Contato direto com usuários para levantamento de requisitos, investigação de falhas, validação de soluções e refinamento de entregas.</li><li><strong>Tecnologias:</strong> C#, .NET, Windows Forms, PostgreSQL, SQL, Git, Jira e DBeaver.</li></ul></div></div><div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><h3>Office Administrator <span class="company">@ Friends Refrigeração</span></h3><span class="date"><i class="far fa-calendar-alt"></i> Jan 2023 – Abr 2025 | Itapira, SP</span><ul><li>Gestão de rotinas administrativas e operacionais, atendimento ao cliente, organização da agenda técnica e controle de ordens de serviço.</li><li>Responsabilidade por faturamento, emissão de documentos fiscais, contas a pagar e receber e fechamento diário.</li><li>Experiência prática com processos financeiros e fiscais que posteriormente contribuiu para meu trabalho com sistemas ERP e requisitos de software.</li></ul></div></div><div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><h3>Bacharelado em Ciência da Computação</h3><span class="date"><i class="far fa-calendar-alt"></i> Jul 2023 – Dez 2026 | Centro Universitário de Jaguariúna (UniFAJ)</span><p>Formação em andamento, com foco em estruturas de dados, orientação a objetos, engenharia de software, bancos de dados e desenvolvimento de aplicações.</p></div></div><div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><h3>Engenharia Elétrica — estudos de graduação</h3><span class="date"><i class="far fa-calendar-alt"></i> Jan 2019 – Jun 2023 | Universidade Federal de São Carlos (UFSCar)</span><p>Formação não concluída que fortaleceu meu raciocínio lógico, base matemática e abordagem estruturada para resolução de problemas.</p></div></div></div>
+</section>
+<section class="section" id="projects">
+<div class="section-header">
+<h2><i class="fas fa-rocket"></i> Projetos em Destaque</h2>
+<div class="line"></div>
+</div>
+<div class="projects-grid"><div class="project-card project-featured"><div class="project-header"><i class="fas fa-boxes project-icon"></i><span class="featured-label">Projeto principal · 01</span><div class="project-links"></div></div><h3>SmartStock AI</h3><p class="project-status"><strong>Em desenvolvimento</strong></p><p class="project-desc">Sistema de gestão para pequenos estabelecimentos, voltado a vendas, estoque, relatórios e análise inteligente de dados. O backend está sendo desenvolvido em Java com uma arquitetura pensada para integrar recursos de IA sem conceder acesso direto ao banco de dados.</p><ul class="project-features"><li>APIs REST para cadastro de estabelecimentos, produtos, vendas e movimentações de estoque.</li><li>Persistência com PostgreSQL, JPA/Hibernate, validações e versionamento de banco com Flyway.</li><li>Planejamento de integração com AWS para ampliar conhecimentos em cloud e arquitetura de aplicações.</li></ul><div class="project-tech"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>JPA / Hibernate</span><span>Docker</span><span>AWS</span></div></div><div class="project-card project-featured"><div class="project-header"><i class="fas fa-cash-register project-icon"></i><span class="featured-label">Projeto principal · 02</span><div class="project-links"></div></div><h3>Totem App</h3><p class="project-status"><strong>Em desenvolvimento</strong></p><p class="project-desc">Aplicação de autoatendimento para estabelecimentos alimentícios, criada para oferecer uma experiência moderna de pedido e pagamento. O projeto combina interface web, persistência em nuvem e integrações com serviços externos.</p><ul class="project-features"><li>Fluxo de montagem e confirmação de pedidos em interface responsiva.</li><li>Integração com iFood e PagBank, com pagamento via Pix já implementado.</li><li>Persistência e serviços de backend utilizando Firebase.</li></ul><div class="project-tech"><span>TypeScript</span><span>React</span><span>Vite</span><span>Firebase</span><span>iFood API</span><span>PagBank / Pix</span></div></div><div class="project-card"><div class="project-header"><i class="fas fa-heartbeat project-icon"></i><div class="project-links"></div></div><h3>Monitoramento de Sinais Vitais (IoT)</h3><p class="project-desc">Projeto acadêmico de monitoramento de sinais vitais para idosos em casas de repouso, combinando dispositivos vestíveis, comunicação sem fio e uma aplicação web para histórico e alertas.</p><ul class="project-features"><li>Dispositivos com ESP32 para coleta de sinais vitais.</li><li>Backend em PHP/Laravel e banco de dados MySQL.</li><li>Interface web para acompanhamento de leituras, histórico e alertas.</li></ul><div class="project-tech"><span>ESP32</span><span>C++</span><span>PHP</span><span>Laravel</span><span>MySQL</span><span>Angular</span></div></div><div class="project-card"><div class="project-header"><i class="fas fa-car project-icon"></i><div class="project-links"><a href="https://github.com/Fe-ctrl/Parking#pt" rel="noopener noreferrer" target="_blank" title="Ver projeto no GitHub"><i class="fab fa-github"></i></a></div></div><h3>Parking Project</h3><p class="project-desc">Aplicação acadêmica full stack para gerenciamento de estacionamento, com backend em Java, frontend web e regras de negócio distribuídas entre a aplicação e o banco Oracle.</p><ul class="project-features"><li>Backend Java com requisições REST.</li><li>Interface em TypeScript, HTML e CSS.</li><li>Packages, views e triggers desenvolvidos em Oracle PL/SQL.</li></ul><div class="project-tech"><span>Java</span><span>TypeScript</span><span>Oracle</span><span>PL/SQL</span></div></div></div>
+</section>
+<section class="section" id="skills">
+<div class="section-header">
+<h2><i class="fas fa-code"></i> Competências</h2>
+<div class="line"></div>
+</div>
+<div class="skills-container"><div class="skill-category"><h3>Backend</h3><div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">C#</span><span class="tag">.NET</span><span class="tag">REST APIs</span><span class="tag">JPA</span><span class="tag">Hibernate</span><span class="tag">JDBC</span></div></div><div class="skill-category"><h3>Bancos de dados</h3><div class="tags"><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Oracle</span><span class="tag">PL/SQL</span><span class="tag">Modelagem de dados</span></div></div><div class="skill-category"><h3>Cloud, ferramentas e práticas</h3><div class="tags"><span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Git / GitHub</span><span class="tag">Jira</span><span class="tag">DBeaver</span><span class="tag">Flyway</span><span class="tag">Debugging</span></div></div><div class="skill-category"><h3>Frontend e integrações</h3><div class="tags"><span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Firebase</span><span class="tag">Integração de APIs</span></div></div><div class="skill-category"><h3>Cursos &amp; certificação em andamento</h3><ul class="course-list"><li><i class="fas fa-check-circle"></i> <strong>Java Completo: POO, Spring Boot, JPA e Hibernate</strong> — Nelio Alves</li><li><i class="fas fa-check-circle"></i> <strong>C# Completo: Programação Orientada a Objetos e .NET</strong> — Nelio Alves</li><li><i class="fas fa-spinner fa-spin"></i> <strong>AWS Certified Cloud Practitioner (CLF-C02)</strong> — Em preparação</li></ul></div></div>
+</section>
+</main>
+<footer>
+<div class="footer-content">
+<div class="footer-logo"><span>&lt;</span>Felipe.dev<span>/&gt;</span></div>
+<p>Backend, dados, integrações e soluções para problemas reais.</p>
+<p>© 2026 Felipe De Nardo Dagnoni.</p>
+</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
